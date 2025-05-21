@@ -1,0 +1,24 @@
+    #include <stdio.h>
+    #include <locale.h>
+
+
+    int main(){
+    setlocale (LC_ALL,"");
+    float a,b,area;
+
+
+    printf("Insira o primeiro numero:\n");
+    scanf("%f", &a);
+    printf("Insira o segundo numero:\n");
+    scanf("%f", &b);
+    area = a * b / 2;
+    printf("A area do triangulo retangulo é:%f" area);
+
+
+
+
+
+
+
+
+    }
